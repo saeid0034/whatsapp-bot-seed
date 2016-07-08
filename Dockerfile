@@ -33,12 +33,12 @@ EXPOSE 9005
 
 ############## EDIT
 # Whatsapp Credentials:
-ENV WHATSAPP_LOGIN="5544999999999"
+ENV WHATSAPP_LOGIN="+989198522372"
 ENV WHATSAPP_PW="xxxxxxxxxxxxxxxxxxxxxxxx="
 # Bing API KEY for image search
 ENV BING_API_KEY=""
 # Add a cellphone number to set as admin
-ENV WHATSAPP_ADMIN=""
+ENV WHATSAPP_ADMIN="+989334098895"
 ############## /EDIT
 
 CMD ["/usr/bin/supervisord"]
